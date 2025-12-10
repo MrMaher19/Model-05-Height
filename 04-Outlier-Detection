@@ -1,0 +1,3 @@
+# Outlier Detection:
+plt.figure(figsize=(5,3))
+sns.boxplot(x="Height",data=df)
