@@ -1,0 +1,3 @@
+# Load Data :
+    df = pd.read_csv("height.csv")
+    df
