@@ -1,0 +1,8 @@
+# training and testing accuracy for Logistic Regression :
+    y_train_pred = model_1.predict(x_train)
+    accuracy_train = accuracy_score(y_train, y_train_pred)
+    y_test_pred = model_1.predict(x_test)
+    accuracy_test = accuracy_score(y_test, y_test_pred)
+    
+    print(f"Logistic Regression - Training Accuracy: {accuracy_train}")
+    print(f"Logistic Regression - Testing Accuracy: {accuracy_test}")
