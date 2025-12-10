@@ -1,0 +1,3 @@
+# Encoding Gender Column :
+    la = LabelEncoder()
+    df["Gender"] = la.fit_transform(df["Gender"])  # Male = 1, Female = 0
