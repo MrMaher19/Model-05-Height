@@ -1,0 +1,7 @@
+# Scaling :
+    scaler = StandardScaler()
+    x_train_scaled = scaler.fit_transform(x_train)
+    x_test_scaled = scaler.transform(x_test)
+    
+    x_train = pd.DataFrame(x_train_scaled, columns=x_train.columns, index=x_train.index)
+    x_test = pd.DataFrame(x_test_scaled, columns=x_test.columns, index=x_test.index)
