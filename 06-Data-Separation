@@ -1,0 +1,5 @@
+# Separate Features and Target column :
+    x = df[["Height","Weight"]]
+    y = df["Gender"]
+# Data Separation : (Train-Test-Split):
+    x_train,x_test,y_train,y_test = train_test_split(x,y,train_size=.80,random_state=42)
